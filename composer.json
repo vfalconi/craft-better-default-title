@@ -1,0 +1,41 @@
+{
+    "name": "vfalconi/craft-better-default-title",
+    "description": "Prescriptive plugin for default Asset titles.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "better default title"
+    ],
+    "support": {
+        "docs": "https://github.com/vfalconi/craft-better-default-title/blob/master/README.md",
+        "issues": "https://github.com/vfalconi/craft-better-default-title/issues"
+    },
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "Vince Falconi",
+            "homepage": "https://tattooed.dev"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "vfalconi\\betterdefaulttitle\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Better Default Title",
+        "handle": "better-default-title",
+        "developer": "Vince Falconi",
+        "developerUrl": "https://tattooed.dev",
+        "documentationUrl": "https://github.com/vfalconi/craft-better-default-title/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/vfalconi/craft-better-default-title/master/CHANGELOG.md",
+        "class": "vfalconi\\betterdefaulttitle\\BetterDefaultTitle"
+    }
+}
